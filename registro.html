@@ -1,0 +1,85 @@
+<form class="crear-cuenta">
+    <h1>Formá parte de STEEM!</h1>
+    <div class="campo">
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" name="usuario" id="usuario" value="">
+    </div>
+    <div class="campo">
+        <label for="mail">Correo:</label>
+        <input type="email" name="mail" id="mail" value="">
+    </div>
+    <div class="campo">
+        <label for="confirmar-mail">Confirmar correo:</label>
+        <input type="email" name="confirmar-mail" id="confirmar-mail" value="">
+    </div>
+    <div class="campo">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" value="">
+    </div>
+    <div class="campo">
+        <label for="confirmar-contrasena">Confirmar contraseña:</label>
+        <input type="password" name="confirmar-contrasena" id="confirmar-contrasena" value="">
+    </div>
+    <div class="campo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" value="">
+    </div>
+    <div class="campo">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" value="">
+    </div>
+    <div class="campo">
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="peru">Perú</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="colombia">Colombia</option>
+            <option value="venezuela">Venezuela</option>
+        </select>
+    </div>
+    <div class="campo">
+        <input type="checkbox" name="premium" id="premium"><label for="premium" id="premium-text">Cuenta premium</label>
+    </div>
+    <div class="captcha">
+        <figure>
+            <img src="" alt="captcha">
+        </figure>
+        <div class="captcha-input">
+            <input type="text" name="captcha" id="captcha" value="">
+            <input type="submit" id="boton-enviar">
+        </div>
+        <div class="comprobacion esconder">
+        </div>
+    </div>
+</form>
+
+<div class="tabla-dinamica">
+    <button id="borrar-todo">Borrar todo</button>
+    <button id="agregar-tres">Agregar varios</button>
+
+    <table class="cuentas">
+        <thead>
+            <tr>
+                <th>Usuario</th>
+                <th>Mail</th>
+                <th>Contraseña</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>País</th>
+                <th>Modificar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+        </tbody>
+    </table>
+</div>
+
+<script src="js/registro.js"></script>
