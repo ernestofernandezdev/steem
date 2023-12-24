@@ -1,0 +1,1 @@
+Para visualizar esta página se necesita Xampp. Colocamos el contenido del repositorio en la carpeta htdocs, activamos el server desde Xampp y ya podemos acceder desde el navegador ingresando a localhost.
